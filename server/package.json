@@ -1,0 +1,17 @@
+{
+    "name": "celsius-converter-server",
+    "version": "1.0.0",
+    "description": "A sample REST API server to convert celsius to fahrenheit",
+    "main": "server.js",
+    "author": "Mehdi Nikfarjam <mm.nikfarjam@outlook.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nikfarjam/celsius-converter.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "express": "~4.16.0",
+        "body-parser": "~1.0.0",
+        "socket.io": "~0.9.14"
+    }
+}
