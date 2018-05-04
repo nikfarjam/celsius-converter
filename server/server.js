@@ -13,6 +13,7 @@ server.use(function(err, req, res, next) {
 });
 
 var port = process.env.PORT || 8080;
+var host = "0.0.0.0";
 
 var router = express.Router();
 router.all('/', function(req, res) {
@@ -38,5 +39,5 @@ router.route('*')
 // all of our routes will be prefixed with /converter
 server.use('/converter', router);
 
-server.listen(port);
+server.listen(port,host);
 console.log('Server is running on ' + port);
