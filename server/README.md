@@ -13,6 +13,6 @@ npm start
 ```
 > Services links
 
-http://<server-ip>:8080/converter/fahrenheit/<degree>
+http://[server-ip]:8080/converter/fahrenheit/[[degree]]
   
-http://<server-ip>:8080/converter/celsius/<degree>
+http://[server-ip]:8080/converter/celsius/<degree>
